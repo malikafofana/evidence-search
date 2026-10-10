@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="260" viewBox="0 0 1100 260" role="img" aria-label="Evidence Search">
+<defs><linearGradient id="accent"><stop stop-color="#4d7aff"/><stop offset="1" stop-color="#ff4a60"/></linearGradient></defs>
+<rect width="1100" height="260" rx="20" fill="#10132a"/>
+<rect x="30" y="30" width="1040" height="200" rx="12" fill="#1b1f3c"/>
+<path d="M60 215H1040" stroke="url(#accent)" stroke-width="3"/>
+<text x="65" y="75" fill="#aab0c4" font-family="sans-serif" font-size="15" letter-spacing="3">MALIKA FOFANA / ENGINEERING PROJECT</text>
+<text x="65" y="139" fill="#f7f8fb" font-family="sans-serif" font-size="44" font-weight="600">Evidence Search</text>
+<text x="65" y="183" fill="#7c9dff" font-family="sans-serif" font-size="21">Retrieval / Source provenance / Evaluation</text>
+<circle cx="980" cy="100" r="20" fill="none" stroke="#ff4a60" stroke-width="2"/>
+<circle cx="1030" cy="158" r="10" fill="#4d7aff"/>
+<path d="M985 118L1024 151" stroke="url(#accent)" stroke-width="2"/>
+</svg>
