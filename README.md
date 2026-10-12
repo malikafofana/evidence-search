@@ -29,7 +29,7 @@ Open http://127.0.0.1:8012. Choose a method, ask a question and inspect the exac
 
 ## Design
 
-Markdown is chunked at section headings. Each chunk keeps its filename, heading and SHA256. Word BM25 is accent-normalized; character TF-IDF uses 3–5-grams. Hybrid search combines rankings through Reciprocal Rank Fusion; zero-score hits contribute nothing.
+Markdown is chunked at section headings. Each chunk keeps its filename, heading and SHA256. Word BM25 is accent-normalized; character TF-IDF uses sequences of 3 to 5 characters. Hybrid search combines rankings through Reciprocal Rank Fusion; zero-score hits contribute nothing.
 
 The answer is the highest-ranked **exact extract**, not a paraphrase. A separately calibrated cosine threshold allows abstention. Cosine similarity is not a factual confidence probability. Retrieved content is displayed as text and never executed.
 
